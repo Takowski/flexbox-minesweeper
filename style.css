@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+  font-family: 'VT323', monospace;
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ margin-top: 6%;
+} 
+
+
+.flex-container {
+    height: 700px;
+    width: 700px;
+    display: flex;
+    flex-flow: wrap;
+    place-content: center;
+    place-items: center;
+    background-color: rgb(146, 146, 146);
+    border: 30px;
+    border-style: ridge;
+    border-color: rgb(203, 203, 203);
+  }
+  
+  .box {
+    background:rgb(203, 203, 203);
+    padding: 0px;
+    width: 85px;
+    height: 85px;
+    margin-top: 0px;
+    line-height: -50px;
+    color: blue;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    border: 1px;
+    border-style: dotted;
+    border-color: black;
+  }
+  .tile{
+    
+    width: 66px;
+    height: 66px;
+    position:fixed;
+    margin:auto;
+    background-color: lightgrey;
+    border-right: 10px ridge rgb(146, 146, 146);
+    border-bottom: 10px ridge rgb(146, 146, 146);
+    border-top:10px ridge white;
+    border-left: 10px ridge white; 
+    
+
+  }
+
+.tile:hover {display: none;}
+
+  .bomb { 
+    width: 85px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  img {
+    height: 85px;
+    width: 85px;
+  }
+
+  .number {
+    font-size: 500%;
+
+  }
+
+  .two {
+    color:green
+  }
+  .three {
+    color:red
+  }
+
+
+  
